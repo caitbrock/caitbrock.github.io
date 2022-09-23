@@ -1,0 +1,39 @@
+.pages {
+    height: 500px;
+    width: 500px;
+}
+
+.page {
+    height: 100%;
+    width: 100%;
+    user-select: none;
+    touch-action: none;
+}
+
+.page1 {
+    background-color: pink;
+}
+
+.page2 {
+    background-color: yellow;
+}
+
+.page3 {
+    background-color: aqua;
+}
+
+.react-pdf__Page__canvas{
+    height: 500px;
+    width: auto;
+    justify-content: center;
+    margin: auto;
+}
+
+.UrbanDesignContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.react-pdf__Page__canvas{
+    margin-top: 40px;
+}

@@ -1,0 +1,153 @@
+h2 {
+    color: white;
+    margin-bottom: 2px;
+}
+
+h4 {
+    color: white;
+    margin-bottom: 2px;
+}
+
+
+p {
+    color: white;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.ProjectBox{
+    height: 100%;
+    
+}
+
+.ProjectContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    /* height: 100%; */
+}
+
+.Box1{
+    width: 40%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Project1{
+    width: 80%;
+    height: auto;
+    margin-top: 40px;
+}
+
+.TextP1{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.TextP1:hover{
+    color: #c4199498;
+}
+
+.Box2{
+    width: 40%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Project2{
+    width: 80%;
+    height: auto;
+    margin-top: 40px;
+}
+.TextP2{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.TextP2:hover{
+    color: #c4199498;
+}
+
+.Box3{
+    width: 40%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Project3{
+    width: 80%;
+    height: auto;
+    margin-top: 40px;
+}
+
+.TextP3{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.TextP3:hover{
+    color: #c4199498;
+}
+
+.Box4{
+    width: 40%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Project4{
+    width: 80%;
+    height: auto;
+    margin-top: 40px;
+}
+
+.TextP4{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+button:hover{
+    color: #ffff;
+    background-color: rgb(252, 116, 4);
+}
+
+button {
+    background-color: #c4199498;
+    border:none;
+    border-radius:10px;
+    color: #ffff;
+    padding: 10px;
+    margin: 10px;
+}
+
+.Buttons {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.Back{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: auto;
+    font-size: 10px;
+    padding: 10px;
+    background-color: rgba(223, 252, 4, 0.593);
+    margin-bottom: 50px;
+}

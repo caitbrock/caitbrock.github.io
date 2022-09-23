@@ -1,0 +1,48 @@
+.Box{
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.Avatar{
+    width: 550px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 0px;
+    background-image: contain;
+    margin-bottom: 50px;
+}
+
+.Text {
+    margin-top: 50px;
+}
+
+.Text-Intro {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    color: white;
+    text-align: left;
+    margin-left: 50px;
+    font-size: 35px;
+
+}
+
+.Text-Description {
+    color: white;
+    text-align: left;
+    margin-left: 50px;
+    font-size: 30px;
+    margin-right: 100px;
+    margin-top: 40px;
+    text-align: justify;
+    text-justify: inter-word;
+
+}
+
+.Logo2{
+    height: 70px;
+    width: auto;
+    margin-top: 10px;
+    margin-left: 3px;
+}

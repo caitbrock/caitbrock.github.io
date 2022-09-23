@@ -1,0 +1,41 @@
+.NavBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.Left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.Right {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Icon{
+    color: #ffff;
+    height: 50px;
+    margin: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+} 
+
+.Icon:hover{
+    color: #c4199498;
+    height: 50px;
+    margin: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+} 

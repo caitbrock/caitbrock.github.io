@@ -1,0 +1,155 @@
+.ResumetBox{
+    height: 100vh;
+    
+}
+
+
+h1 {
+    color: white;
+    margin-bottom: 0px;
+}
+
+.InfoBox{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.Personal{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: flex-start;
+}
+
+.Info{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 20px;
+
+}
+.ResumeLeft {
+    width: 25%
+}
+
+.PersonalLeft {
+    text-align: left;
+}
+
+.ResumeRight{
+    width: 35%;
+}
+
+.PersonalRight {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 5px;
+    text-align: right;
+    margin-top: 30px;
+}
+
+.Profile{
+    text-align: left;
+}
+
+.TitleProfile{
+    color: white;
+}
+
+.DescriptionProfile{
+    margin-block-start: 1.33em;
+    color: white;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.Education{
+    text-align: left;
+}
+
+.TitleEducation{
+    color: white;
+}
+
+.DescriptionEducation{
+    color: white;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.Skills{
+    text-align: left;
+}
+
+.TitleSkills{
+    color: white;
+}
+
+.DescriptionSkills{
+    display: block;
+    margin-block-start: 1.33em;
+    color: white;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.Projects{
+    text-align: left;
+}
+
+.TitleProjects{
+    color: white;
+}
+
+.DescriptionProjects{
+    display: block;
+    color: white;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+p {
+    font-size: 12px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.Experience{
+    text-align: left;
+}
+
+.TitleExperience{
+    color: white;
+}
+
+.DescriptionExperience{
+    color: white;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+ul{
+    font-size: 12px;
+    color: white; 
+}
+
+strong {
+    font-size: 14px;
+}
+
+.Social{
+    width: 18px;
+}
+
+.Socials{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
