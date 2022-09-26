@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/github.io/caitbrock.github.io/static/css/main.cfea09eb.css",
+    "main.js": "/github.io/caitbrock.github.io/static/js/main.b9e1fa75.js",
+    "static/js/787.2f364971.chunk.js": "/github.io/caitbrock.github.io/static/js/787.2f364971.chunk.js",
+    "static/media/Graphic-Compressed.png": "/github.io/caitbrock.github.io/static/media/Graphic-Compressed.f2371c5143c2d9897b20.png",
+    "static/media/Project4.png": "/github.io/caitbrock.github.io/static/media/Project4.6621979510052c67b875.png",
+    "static/media/Project3.png": "/github.io/caitbrock.github.io/static/media/Project3.2ca4799d9592cb8178c8.png",
+    "static/media/Software Engineering.png": "/github.io/caitbrock.github.io/static/media/Software Engineering.1d196059e3fbf68330f0.png",
+    "static/media/Project2.png": "/github.io/caitbrock.github.io/static/media/Project2.295c120f845602b0a356.png",
+    "static/media/Brock Portfolio - Masters.pdf": "/github.io/caitbrock.github.io/static/media/Brock Portfolio - Masters.15eb31d70cef69bbf16d.pdf",
+    "static/media/Urban Design.png": "/github.io/caitbrock.github.io/static/media/Urban Design.129209d5a030fdc50390.png",
+    "static/media/Project1.png": "/github.io/caitbrock.github.io/static/media/Project1.21ab1396f98b4797024b.png",
+    "static/media/CaitBrock-02.png": "/github.io/caitbrock.github.io/static/media/CaitBrock-02.8316b264c4a97560af5b.png",
+    "static/media/LinkedIn.png": "/github.io/caitbrock.github.io/static/media/LinkedIn.959c98589a83c776dcd7.png",
+    "index.html": "/github.io/caitbrock.github.io/index.html",
+    "main.cfea09eb.css.map": "/github.io/caitbrock.github.io/static/css/main.cfea09eb.css.map",
+    "main.b9e1fa75.js.map": "/github.io/caitbrock.github.io/static/js/main.b9e1fa75.js.map",
+    "787.2f364971.chunk.js.map": "/github.io/caitbrock.github.io/static/js/787.2f364971.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cfea09eb.css",
+    "static/js/main.b9e1fa75.js"
+  ]
+}
