@@ -1,11 +1,15 @@
 .Box{
-    height: 100%;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: flex-start;
+    position: absolute;
+    top: 50; left: 0;
+    width: 100vw; height: 100vh;
 }
 
 .Avatar{
-    width: 550px;
+    width: 40%;
     border-radius: 20px;
     margin-top: 20px;
     margin-left: 0px;
@@ -15,34 +19,80 @@
 
 .Text {
     margin-top: 50px;
+    width: 50%;
+    color: white;
+    position: relative;
+    margin-right: 100px;
 }
 
 .Text-Intro {
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     align-items: flex-end;
-    color: white;
     text-align: left;
-    margin-left: 50px;
-    font-size: 35px;
-
+    font-size: 3.4vw;
 }
 
 .Text-Description {
-    color: white;
     text-align: left;
-    margin-left: 50px;
-    font-size: 30px;
-    margin-right: 100px;
-    margin-top: 40px;
+    /* margin-left: 50px; */
+    font-size: 2.6vw;
+    /* margin-right: 60px; */
+    margin-top: 20px;
     text-align: justify;
     text-justify: inter-word;
 
 }
 
 .Logo2{
+    max-height: 70px;
+    width: auto;
+    align-items: baseline;
+    margin-top: 20px;
+    margin-left: 0.19em;
+}
+
+h2{
+    flex-wrap: nowrap;
+}
+
+@media (max-width: 900px) {
+    .Text-Description {
+        text-align: left;
+        /* margin-left: 0px;
+        font-size: 30px;
+        margin-right:60px;
+        margin-top: 40px; */
+        text-align: left;
+        text-justify: inter-word;
+  }
+  .Text {
+    margin-right: 30px;
+  }
+  .Text-Intro {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  h2{
+
+  }
+  .Logo2{
+    margin-top: 0px;
+  }
+  /* 
+  .Logo2{
     height: 70px;
     width: auto;
     margin-top: 10px;
-    margin-left: 3px;
+} */
+/* .Avatar{
+    width: 300px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 0px;
+    background-image: contain;
+    margin-bottom: 50px;
+} */
 }

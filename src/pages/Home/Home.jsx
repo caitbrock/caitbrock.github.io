@@ -37,10 +37,11 @@ class Home extends React.Component {
             currentTab={this.state.currentTab} updateCurrentTabTo={this.updateCurrentTabTo}/> } 
 
     return (
-        <div>
+        <div className='FullApp'>
         <NavBar updateCurrentTabTo={this.updateCurrentTabTo} currentTab={this.state.currentTab}/>
-        
+
         {button}
+
         </div>
     );
     }

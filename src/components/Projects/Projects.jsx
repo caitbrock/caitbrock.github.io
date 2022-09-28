@@ -10,7 +10,6 @@ function Projects(props) {
       <img className="UrbanDesign" src={UrbanDesignImage} />
       <h1>Design Portfolio</h1>
       <button onClick={() => {props.updateCurrentTabTo(5)}} style={{cursor: 'pointer'}}>View Work</button>
-
       </div>
 
       <div className="Computers">

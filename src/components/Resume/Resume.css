@@ -1,8 +1,9 @@
 .ResumetBox{
-    height: 100vh;
-    
+    height: 100%;
+    margin: auto;
+    justify-content: center;
+    position: relative;
 }
-
 
 h1 {
     color: white;
@@ -11,10 +12,9 @@ h1 {
 
 .InfoBox{
     margin: auto;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-
+    position: absolute;
+    top: 50; left: 0;
+    width: 100%; height: 100%;
 }
 
 .Personal{
@@ -28,13 +28,13 @@ h1 {
 .Info{
     margin: auto;
     display: flex;
-    justify-content: center;
-    gap: 70px;
+    justify-content: space-around;
     margin-top: 20px;
-
+    width: 100%; height: 100%;
 }
+
 .ResumeLeft {
-    width: 25%
+    width: 35%
 }
 
 .PersonalLeft {
@@ -42,7 +42,7 @@ h1 {
 }
 
 .ResumeRight{
-    width: 35%;
+    width: 40%;
 }
 
 .PersonalRight {

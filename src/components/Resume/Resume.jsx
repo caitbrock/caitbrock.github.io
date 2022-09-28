@@ -10,8 +10,6 @@ function Resume() {
 
   return (
     <div className="ResumeBox">
-
-
       <div className="InfoBox">
         <div className="Info">
         <div className = "ResumeLeft">
