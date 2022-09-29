@@ -11,12 +11,25 @@ function Resume() {
   return (
     <div className="ResumeBox">
       <div className="InfoBox">
-        <div className="Info">
-        <div className = "ResumeLeft">
       <div className="PersonalLeft">      
         <h1>CAIT BROCK</h1>
         <p>e: cait2brock@gmail.com </p>
         </div>
+
+        <div className="PersonalRight">
+        <div className="Socials">
+      <p>LinkedIn</p>
+      <img className="Social" src={LinkedIn} onClick={() => openInNewTab('https://www.linkedin.com/in/caitbrock/')} style={{cursor: 'pointer'}}/>
+      </div>
+      <div className="Socials">
+      <p>GitHub</p>
+        <img className="Social" src={GitHub} onClick={() => openInNewTab('https://github.com/caitbrock')} style={{cursor: 'pointer'}}/>
+        </div>
+        </div>
+        </div>
+        <div className="Info">
+        <div className = "ResumeLeft">
+
 
         <div className="Profile">
         <div className='TitleProfile'><h2>PROFILE</h2></div>
@@ -78,16 +91,6 @@ function Resume() {
       </div>
 
       <div className="ResumeRight">
-      <div className="PersonalRight">
-        <div className="Socials">
-      <p>LinkedIn</p>
-      <img className="Social" src={LinkedIn} onClick={() => openInNewTab('https://www.linkedin.com/in/caitbrock/')} style={{cursor: 'pointer'}}/>
-      </div>
-      <div className="Socials">
-      <p>GitHub</p>
-        <img className="Social" src={GitHub} onClick={() => openInNewTab('https://github.com/caitbrock')} style={{cursor: 'pointer'}}/>
-        </div>
-        </div>
       <div className="Experience">
         <div className='TitleExperience'><h2>EXPERIENCE</h2></div>
           <div className='DescriptionExperience'>
@@ -122,7 +125,7 @@ function Resume() {
                   <li>Creating promotional posters and digital banners for events held in store.</li>
                   <li>Collaborating with authors using the in-house publishing services designing custom book covers.</li>
                   <li>Collaborating with other graphic designers to build out a self-serve option on the company website for authors looking to publish in-house.</li><br/></ul>
-      </div>
+
       </div>
       </div>
       </div>

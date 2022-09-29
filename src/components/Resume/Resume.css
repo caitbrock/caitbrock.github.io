@@ -1,8 +1,12 @@
 .ResumetBox{
     height: 100%;
+    display: flex;
+    flex-direction: column;
     margin: auto;
     justify-content: center;
-    position: relative;
+    position: absolute;
+    top: 50; left: 0;
+    width: 100%; height: 100%;
 }
 
 h1 {
@@ -11,10 +15,12 @@ h1 {
 }
 
 .InfoBox{
-    margin: auto;
-    position: absolute;
-    top: 50; left: 0;
-    width: 100%; height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding: 10px;
 }
 
 .Personal{
@@ -28,13 +34,16 @@ h1 {
 .Info{
     margin: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 20px;
-    width: 100%; height: 100%;
+
 }
 
 .ResumeLeft {
-    width: 35%
+    width: 35%;
+    margin-left: 7%;
+    padding: 10px;
+
 }
 
 .PersonalLeft {
@@ -42,7 +51,9 @@ h1 {
 }
 
 .ResumeRight{
-    width: 40%;
+    width: 45%;
+    margin-right: 7%;
+    padding: 10px;
 }
 
 .PersonalRight {
@@ -115,7 +126,7 @@ h1 {
 }
 
 p {
-    font-size: 12px;
+    font-size: 1.2vw;
     margin-top: 3px;
     margin-bottom: 3px;
 }
@@ -152,4 +163,22 @@ strong {
     flex-direction: row;
     align-items: center;
     gap: 8px;
+}
+
+
+@media (max-width: 900px) {
+
+    .Info{
+        display:block;
+        margin: auto;
+    }
+
+    .ResumeLeft{
+        width: 80%
+    }
+
+    .ResumeRight{
+        width: 80%
+    }
+
 }

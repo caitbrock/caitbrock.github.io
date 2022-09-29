@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import './UrbanDesign.css';
 import samplePDF from '../../Brock Portfolio - Masters.pdf'
+import samplePDF2 from '../../Brock Portfolio - Masters - pages.pdf'
 import { Document, Page, pdfjs } from "react-pdf";
+
 pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 function UrbanDesign(props) {
@@ -28,15 +30,18 @@ function UrbanDesign(props) {
     const { pdf } = props;
 
     return (
+    
       <div className='UrbanDesignContainer'>
-        <Document
-          file={samplePDF}
-          onLoadSuccess={onDocumentLoadSuccess}
-        >
+        <div className="compv">
+        <Document file={samplePDF}
+          onLoadSuccess={onDocumentLoadSuccess}>
           <Page pageNumber={pageNumber}
-          className='Portfolio' />
+          maxWidth={window.innerWidth}
+          className='Portfolio'/>
         </Document>
-        <div>
+        </div>
+
+        <div className='Navigation'>
           <br/>
           <p>
             Page {pageNumber || (numPages ? 1 : '--')} of {numPages || '--'}
