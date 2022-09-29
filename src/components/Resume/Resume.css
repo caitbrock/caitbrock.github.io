@@ -174,11 +174,53 @@ strong {
     }
 
     .ResumeLeft{
-        width: 80%
+        width: 80%;
+        margin-left: 7%;
+        padding-top: 0%;
     }
 
     .ResumeRight{
-        width: 80%
+        width: 80%;
+        margin-left: 7%;
+        padding-top: 0;
+    }
+
+    p{
+        font-size: 2.2vw;
+    }
+
+    li{
+        font-size: 2.2vw;
+    }
+
+    .PersonalRight {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        text-align: right;
+        margin-top: 0.60em;
+    }
+
+    h4{
+        font-size: 3vw; 
+        margin-top: 2%;
+    }
+
+    strong {
+        font-size: 3vw; 
+    }
+
+    .DescriptionProfile, .DescriptionSkills, .DescriptionExperience, .DescriptionProjects, .DescriptionEducation{
+        margin-top: 2%;
+    }
+
+    .Social{
+        width: 10px;
+    }
+
+    .Section{
+        margin-top: 2%;
+        margin-bottom: 2%;
     }
 
 }

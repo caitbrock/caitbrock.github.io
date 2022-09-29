@@ -46,7 +46,7 @@
 @media (max-width: 900px) {
     .Icon {
         font-size: 2.1vw;
-        padding: 10px;
+        padding-left: 10px;
         padding-right: 0px;
         margin-right: 0px;
     }

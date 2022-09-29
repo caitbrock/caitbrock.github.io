@@ -1,4 +1,4 @@
-h2 {
+h3 {
     color: white;
     margin-bottom: 2px;
 }
@@ -170,28 +170,28 @@ button {
     }
     .Box1{
         width: 80%;
-
+        height: auto;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
     .Box2{
         width: 80%;
-
+        height: auto;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
     .Box3{
         width: 80%;
-
+        height: auto;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
     .Box4{
         width: 80%;
-
+        height: auto;
         display: flex;
         flex-direction: column;
         align-items: center;

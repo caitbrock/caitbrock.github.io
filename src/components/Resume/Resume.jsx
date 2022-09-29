@@ -32,21 +32,21 @@ function Resume() {
 
 
         <div className="Profile">
-        <div className='TitleProfile'><h2>PROFILE</h2></div>
+        <div className='TitleProfile'><h2 className="Section">PROFILE</h2></div>
           <div className='DescriptionProfile'>
             <p>Frontend Developer and Designer with strong leadership and interpersonal skills. A quick learner with a proven ability to solve problems and undertake challenges with enthusiasm. Determined and adaptable individual, with a strong work ethic and a commitment to achieving results. Goal driven and excellent at managing timelines.</p><br/>
           </div>
       </div>
 
         <div className="Skills">
-        <div className='TitleSkills'><h2>SKILLS</h2></div>
+        <div className='TitleSkills'><h2 className="Section">SKILLS</h2></div>
           <div className='DescriptionSkills'>
             <p>Proficient in Adobe Creative Suite (Photoshop, Illustrator and InDesign), Microstation, Rhino, and Grasshopper. Additional experience working with AutoCad, QGIS, Sketchup. HTML, CSS, JavaScript, MongoDB, Python, React and Figma.</p><br/>
           </div>
       </div>
 
       <div className="Education">
-        <div className='TitleEducation'><h2>EDUCATION</h2></div>
+        <div className='TitleEducation'><h2 className="Section">EDUCATION</h2></div>
           <div className='DescriptionEducation'>
             <h4>General Assembly</h4>
             <p>(May 2022 - Aug. 2022)</p>
@@ -67,7 +67,7 @@ function Resume() {
       </div>
 
       <div className="Projects">
-        <div className='TitleProjects'><h2>RECENT PROJECTS</h2></div>
+        <div className='TitleProjects'><h2 className="Section">RECENT PROJECTS</h2></div>
           <div className='DescriptionProjects'>
             <h4>Natural and Human Systems Class Lecture</h4>
             <p>University of Manitoba - Faculty of Architecture (2020 and 2022 - Lecture)</p>
@@ -92,7 +92,7 @@ function Resume() {
 
       <div className="ResumeRight">
       <div className="Experience">
-        <div className='TitleExperience'><h2>EXPERIENCE</h2></div>
+        <div className='TitleExperience'><h2 className="Section">EXPERIENCE</h2></div>
           <div className='DescriptionExperience'>
             <h4>Weston Consulting</h4>
             <p><strong>URBAN DESIGNER</strong> (2020 - 2022)</p>

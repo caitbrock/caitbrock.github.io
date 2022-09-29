@@ -81,4 +81,9 @@ h2{
   .Text-Description{
     font-size: 2.2vw;
   }
+
+  h2{
+    margin-block-end: 0em;
+
+}
 }
