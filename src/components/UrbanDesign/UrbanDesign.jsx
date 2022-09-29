@@ -3,6 +3,7 @@ import './UrbanDesign.css';
 import samplePDF from '../../Brock Portfolio - Masters.pdf'
 import samplePDF2 from '../../Brock Portfolio - Masters - pages.pdf'
 import { Document, Page, pdfjs } from "react-pdf";
+import { BrowserView, MobileView } from 'react-device-detect';
 
 pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
@@ -30,15 +31,23 @@ function UrbanDesign(props) {
     const { pdf } = props;
 
     return (
-    
       <div className='UrbanDesignContainer'>
         <div className="compv">
+        <BrowserView>
         <Document file={samplePDF}
           onLoadSuccess={onDocumentLoadSuccess}>
           <Page pageNumber={pageNumber}
-          maxWidth={window.innerWidth}
           className='Portfolio'/>
         </Document>
+        </BrowserView>
+
+        <MobileView>
+        <Document file={samplePDF2}
+          onLoadSuccess={onDocumentLoadSuccess}>
+          <Page pageNumber={pageNumber}
+          className='Portfolio'/>
+        </Document>
+        </MobileView>
         </div>
 
         <div className='Navigation'>
@@ -62,6 +71,11 @@ function UrbanDesign(props) {
           </button>
         </div>
       </div>
+      
+
+      
+
+  
     );
   }
 
