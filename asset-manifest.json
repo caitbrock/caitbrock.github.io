@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.19f68db6.css",
-    "main.js": "/static/js/main.b97fd734.js",
+    "main.css": "/static/css/main.d307616b.css",
+    "main.js": "/static/js/main.50513da1.js",
     "static/js/787.2f364971.chunk.js": "/static/js/787.2f364971.chunk.js",
     "static/media/Graphic-Compressed.png": "/static/media/Graphic-Compressed.f2371c5143c2d9897b20.png",
     "static/media/Project4.png": "/static/media/Project4.6621979510052c67b875.png",
     "static/media/Project3.png": "/static/media/Project3.2ca4799d9592cb8178c8.png",
     "static/media/Software Engineering.png": "/static/media/Software Engineering.1d196059e3fbf68330f0.png",
     "static/media/Project2.png": "/static/media/Project2.295c120f845602b0a356.png",
+    "static/media/Brock Portfolio - Masters - pages.pdf": "/static/media/Brock Portfolio - Masters - pages.667fe188006d240d31e5.pdf",
     "static/media/Brock Portfolio - Masters.pdf": "/static/media/Brock Portfolio - Masters.15eb31d70cef69bbf16d.pdf",
     "static/media/Urban Design.png": "/static/media/Urban Design.129209d5a030fdc50390.png",
     "static/media/Project1.png": "/static/media/Project1.21ab1396f98b4797024b.png",
     "static/media/CaitBrock-02.png": "/static/media/CaitBrock-02.62ddcf6bfdf9d3125de7.png",
     "static/media/LinkedIn.png": "/static/media/LinkedIn.959c98589a83c776dcd7.png",
     "index.html": "/index.html",
-    "main.19f68db6.css.map": "/static/css/main.19f68db6.css.map",
-    "main.b97fd734.js.map": "/static/js/main.b97fd734.js.map",
+    "main.d307616b.css.map": "/static/css/main.d307616b.css.map",
+    "main.50513da1.js.map": "/static/js/main.50513da1.js.map",
     "787.2f364971.chunk.js.map": "/static/js/787.2f364971.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.19f68db6.css",
-    "static/js/main.b97fd734.js"
+    "static/css/main.d307616b.css",
+    "static/js/main.50513da1.js"
   ]
 }
