@@ -8,6 +8,9 @@ h4 {
     margin-bottom: 2px;
 }
 
+.ProjectDescription{
+    font-size: 1.1vw;
+}
 
 p {
     color: white;
@@ -25,14 +28,16 @@ p {
     align-items: center;
     gap: 30px;
     flex-wrap: wrap;
-    margin-top: 0px;
-    /* height: 100%; */
+    margin-top: 50px;
+    height: 100%;
+    padding: 10px;
+
 }
 
 .Box1{
     width: 40%;
-    height: 550px;
-    max-height: 550px;
+    height: 700px;
+    max-height: 700px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,8 +61,8 @@ p {
 
 .Box2{
     width: 40%;
-    height: 550px;
-    max-height: 550px;
+    height: 700px;
+    max-height: 700px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -80,8 +85,8 @@ p {
 
 .Box3{
     width: 40%;
-    height: 550px;
-    max-height: 550px;
+    height: 700px;
+    max-height: 700px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -105,8 +110,8 @@ p {
 
 .Box4{
     width: 40%;
-    height: 550px;
-    max-height: 550px;
+    height: 700px;
+    max-height: 700px;
     display: flex;
     flex-direction: column;
     align-items: center;

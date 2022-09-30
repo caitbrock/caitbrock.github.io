@@ -67,6 +67,11 @@ h2{
     font-weight: bold;
 }
 
+span.contact {
+    color: #c41994f6; 
+    text-decoration: underline;
+}
+
 @media (max-width: 900px) {
   .Text {
     margin: auto;

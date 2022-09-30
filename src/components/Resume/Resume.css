@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     margin: auto;
+
     justify-content: center;
     position: absolute;
     top: 50; left: 0;
@@ -21,6 +22,7 @@ h1 {
     margin-left: 7%;
     margin-right: 7%;
     padding: 10px;
+    margin-top:6.5%;
 }
 
 .Personal{
@@ -62,7 +64,7 @@ h1 {
     align-items: flex-end;
     gap: 5px;
     text-align: right;
-    margin-top: 30px;
+    margin-top: 2%;
 }
 
 .Profile{
@@ -121,14 +123,13 @@ h1 {
 .DescriptionProjects{
     display: block;
     color: white;
-    text-align: justify;
-    text-justify: inter-word;
 }
 
 p {
     font-size: 1.2vw;
     margin-top: 3px;
     margin-bottom: 3px;
+    color: white;
 }
 
 .Experience{
@@ -141,17 +142,17 @@ p {
 
 .DescriptionExperience{
     color: white;
-    text-align: justify;
-    text-justify: inter-word;
 }
 
 ul{
-    font-size: 12px;
+    font-size: 1.2vw;
     color: white; 
 }
 
 strong {
-    font-size: 14px;
+    font-size: 1.4vw;
+    margin-top: 10px;
+    color: rgb(183, 183, 183); 
 }
 
 .Social{
@@ -165,7 +166,35 @@ strong {
     gap: 8px;
 }
 
+h5{
+    font-size: 1em;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: rgba(255, 255, 255, 0.487);
+}
 
+h6{
+    color: white; 
+    margin-bottom: 2px;
+    margin-top: 0;
+    font-size: 4vw;
+}
+
+h4{
+    font-size: 2vw; 
+    margin-top: 0;
+    color: rgb(255, 255, 255);
+
+}
+
+.Section{
+    color: #c41994f6;
+}
+
+button.email {
+  margin: 0;
+
+}
 @media (max-width: 900px) {
 
     .Info{
@@ -198,12 +227,19 @@ strong {
         flex-direction: column;
         align-items: flex-end;
         text-align: right;
-        margin-top: 0.60em;
+        margin-top: 0.3em;
     }
 
     h4{
         font-size: 3vw; 
         margin-top: 2%;
+    }
+
+    h6{
+        color: white;
+        margin-bottom: 2px;
+        margin-top: 0;
+        font-size: 4vw;
     }
 
     strong {
@@ -221,6 +257,13 @@ strong {
     .Section{
         margin-top: 2%;
         margin-bottom: 2%;
+    }
+
+    h5{
+        font-size: .5em;
+        margin-bottom: 0;
+        margin-top: 0;
+        color: white;
     }
 
 }

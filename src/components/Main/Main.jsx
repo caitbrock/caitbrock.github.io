@@ -19,7 +19,7 @@ function Main() {
 
     <br/><br/> The project tab of this website includes some examples of work within both industries. A portfolio with further examples is available upon request. 
     
-    <br/><br/> Please feel free to contact me at cait2brock@gmail.com.
+    <br/><br/> Please feel free to contact me at <span className="contact" onClick={() => window.location = 'mailto:cait2brock@gmail.com'} style={{cursor: 'pointer'}}>cait2brock@gmail.com.</span>
     </div>
     </div>
     </div>
