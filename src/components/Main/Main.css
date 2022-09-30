@@ -41,9 +41,7 @@
     font-size: 1.8vw;
     margin-top: 5%;
     text-align: justify;
-    text-justify: inter-word;
     width: 100%;
-
 }
 
 .Logo2{
@@ -51,7 +49,6 @@
     max-width: 100%;
     margin-left: 0.3em; 
     margin-block-start: 0.6em;
-
 }
 
 h2{

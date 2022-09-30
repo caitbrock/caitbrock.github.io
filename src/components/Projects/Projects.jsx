@@ -6,6 +6,14 @@ import "./Projects.css"
 function Projects(props) {
   return (
     <div className="ProjectFrame">
+     <div className="Computers">
+      <img className="SoftwareEngineering" src={SoftwareEngineeringImage} />
+      <div className="Portfolio">
+      <h1>Software Engineering Portfolio</h1>
+      <button onClick={() => {props.updateCurrentTabTo(4)}} style={{cursor: 'pointer'}}>View Work</button>
+      </div>
+      </div>
+
       <div className="Architecture">
       <img className="UrbanDesign" src={UrbanDesignImage} />
       <div className="Portfolio">
@@ -14,13 +22,7 @@ function Projects(props) {
       </div>
       </div>
 
-      <div className="Computers">
-      <img className="SoftwareEngineering" src={SoftwareEngineeringImage} />
-      <div className="Portfolio">
-      <h1>Software Engineering Portfolio</h1>
-      <button onClick={() => {props.updateCurrentTabTo(4)}} style={{cursor: 'pointer'}}>View Work</button>
-      </div>
-      </div>
+
     </div>
 
   )
