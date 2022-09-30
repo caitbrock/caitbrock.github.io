@@ -19,7 +19,7 @@ function SoftwareEngineering(props) {
           <img className="Project2" src={Project2} />
           <div className='TextP2'>
           <h3>Our Growing City</h3>
-          <p>Skills: HTML, CSS, Node, Express, Leaflet, QGIS</p>
+          <p className='ProjectSkills'>Skills: HTML, CSS, Node, Express, Leaflet, QGIS</p>
           <h4 className="ProjectDescription">Application that tracks local development, allowing community members to engage with active applications within their neighbourhoods and keep track of upcoming public meetings.<br/>
           <br/><em>*Code is still being developed with North Toronto as the neighbourhood available for demo.*</em></h4><br/>
           </div>
@@ -33,7 +33,8 @@ function SoftwareEngineering(props) {
           <img className="Project4" src={Project4} />
           <div className='TextP4'>
           <h3>Travelspo</h3>
-          <p>Skills: HTML, CSS, Javascript, React, MongoDB, Express, and AWS S3</p>
+          
+          <p className='ProjectSkills'>Skills: HTML, CSS, Javascript, React, MongoDB, Express, and AWS S3</p>
           <h4 className="ProjectDescription">Travelspo is a social media platform that provides aspiring travellers with a location to save information related to travels.</h4><br/>
           </div>
           <div className='Buttons'>
@@ -45,7 +46,7 @@ function SoftwareEngineering(props) {
           <img className="Project1" src={Project1} />
           <div className='TextP1'>
           <h3>Sssoftware Engineering Skillsss</h3>
-          <p>Skills: HTML, CSS, and Javascript</p>
+          <p className='ProjectSkills'>Skills: HTML, CSS, and Javascript</p>
           <h4 className="ProjectDescription">Recreating the game snake.</h4><br/>
           </div>
           <div className='Buttons'>
@@ -58,7 +59,7 @@ function SoftwareEngineering(props) {
           <img className="Project3" src={Project3} />
           <div className='TextP3'>
           <h3>Megazon</h3>
-          <p>Skills: HTML, CSS, Javascript, Django, PSQL, Materialize, Python</p>
+          <p className='ProjectSkills'>Skills: HTML, CSS, Javascript, Django, PSQL, Materialize, Python</p>
           <h4 className="ProjectDescription">Metazon is an ecommerce application for digital products. This app is designed for a not too distant future where digital spaces and virtual environmments are part of our everyday lives.</h4><br/>
           </div>
           <div className='Buttons'>

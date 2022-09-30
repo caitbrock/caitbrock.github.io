@@ -10,7 +10,7 @@ function Projects(props) {
       <img className="SoftwareEngineering" src={SoftwareEngineeringImage} />
       <div className="Portfolio">
       <h1>Software Engineering Portfolio</h1>
-      <button onClick={() => {props.updateCurrentTabTo(4)}} style={{cursor: 'pointer'}}>View Work</button>
+      <button id="Access" onClick={() => {props.updateCurrentTabTo(4)}} style={{cursor: 'pointer'}}>View Work</button>
       </div>
       </div>
 
@@ -18,7 +18,7 @@ function Projects(props) {
       <img className="UrbanDesign" src={UrbanDesignImage} />
       <div className="Portfolio">
       <h1>Design Portfolio</h1>
-      <button onClick={() => {props.updateCurrentTabTo(5)}} style={{cursor: 'pointer'}}>View Work</button>
+      <button id="Access" onClick={() => {props.updateCurrentTabTo(5)}} style={{cursor: 'pointer'}}>View Work</button>
       </div>
       </div>
 
