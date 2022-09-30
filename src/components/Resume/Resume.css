@@ -188,11 +188,13 @@ h4{
 }
 
 .Section{
-    color: #c41994f6;
+    color: #94949467;
 }
 
 button.email {
   margin: 0;
+  background-color: #94949467;
+
 
 }
 @media (max-width: 900px) {
